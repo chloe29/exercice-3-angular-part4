@@ -14,7 +14,7 @@
       </thead>
       <tr ng-repeat="car in cars" ng-if="car.couleur == 'verte'">
         <!-- autre méthode : -->
-        <!-- <tr ng-repeat="car in cars | filter:'verte'"> -->
+        <!-- <tr ng-repeat="car in cars" | filter:'verte'"> -->
         <td>
           {{car.marque}}
         </td>
